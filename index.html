@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leclercq Mathieu, son Cv responsive et tres cool</title>
+    <meta name="description" content="Ce site web est le cv entièrement responcible de Mathieu Leclercq, informaticien en réseaux et télecomunications" />
+    <meta name="author" content="Leclercq Mathieu" />
+    
+    <meta name="robots" content = "index">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="icon" href="img/global/logo.ico"/>
+    
+    <link href='http://fonts.googleapis.com/css?family=Anton%7CRoboto+Condensed:400,700%7CSource+Sans+Pro:400,700,400italic,700italic%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <link href="css/styles.css" rel="stylesheet" media="all" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" media="all" type="text/css">
+    <script src="js/jquery.js"></script>
+
+    <!--[if lte IE 8]>
+        <link type="text/css" rel="stylesheet" href="css/styles-ie.css" rel="stylesheet" media="all" type="text/css" >
+        <![endif]-->
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <div class="navbar-default fixed-res">
+        <nav class="container">
+            <a href="#about" class="titre">
+                        Leclercq Mathieu
+                    </a>
+            <div class="navbar-nav">
+                <div id="box">
+                    <div class="pointeur"></div>
+                    <ul id="menu" class="nav">
+
+                        <li id="li1" onclick="clique(this)" class="">
+                            <p>accueil</p>
+                            <div id="marqueur1" class=""></div>
+                        </li>
+                        <li id="li2" onclick="clique(this)" class="">
+                            <p>Projets</p>
+                            <div id="marqueur2" class=""></div>
+                        </li>
+                        <li id="li3" onclick="clique(this)">
+                            <p>A propos de moi</p>
+                            <div id="marqueur3" class=""></div>
+                        </li>
+                        <li id="li4" onclick="clique(this)" class="">
+                            <p>Me contacter</p>
+                            <div id="marqueur4" class=""></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- accueil -->
+
+    <div id="section1" class="accueil">
+        <div class="accueil-cont">
+            <p>Bonjour, je suis</p>
+            <h1>Leclercq Mathieu</h1>
+            <h2>Etudiant en informatique</h2>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-facebook" ></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" ></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <div class="fleche-bas">
+                <a href="#Projets" class="plus"></a>
+            </div>
+        </div>
+        <div class="bg-img">
+        </div>
+    </div>
+
+    <!-- Projets -->
+
+    <section id="section2" class="projets section">
+        <div class="headerProj">
+            <h2 class="shadow">
+                Mes Projets
+                </h2>
+            <p>Voici quelques-uns des projets que j'ai pu réaliser au cours de mes études.</p>
+        </div>
+        <div id="Cont" class="imgCont">
+            <div class="cont">
+                <div class="element">
+                    <img src="img/projets/SiteScouPprj.PNG" alt="mon premier site web">
+                    <div class="text">
+                            <h3>
+                                Site web réalisé pour le projet de Ba1 à l'Isims 
+                            </h3>
+                        <p>
+                            Ce site web est le premier projet que j'ai réalisé en html/css.
+                        </p>
+                    </div>
+                </div>
+                <div class="element">
+                    <img src="img/projets/BoiteJeuxPrj.PNG" alt="boite a jeu">
+                    <div class="text">
+                        <h3>
+                            Boîte à jeux realiser en java
+                        </h3>
+                        <p>
+                            Programme permettant de jouer seul ou à deux à trois jeux (puissance 4, tic-tac-toe et l’Othello).
+                        </p>
+                        <p>
+                            Ce projet a été réalisé dans le cadre d'un cours à l'Umons.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <div class="element">
+                    <img src="img/projets/VideothequePrj.PNG" alt="videotheque">
+                    <div class="text">
+                            <h3>
+                                Vidéothèque réalisée dans le cadre du cours <br>de c# de première année à la heh
+                            </h3>
+                        <p>Ce programme est codé en c#, il permet la gestion de plusieurs vidéothèques afin que plusieurs utilisateurs puissent l'utiliser.
+                        </p>
+                    </div>
+                </div>
+                <div class="element">
+                    <img src="img/projets/Puissance4Prj.PNG" alt="puissance4">
+                    <div class="text">
+                        <h3>
+                                Puissance 4 réalisé dans le cadre des laboratoires de c#
+                            </h3>
+                        <p>
+                            J'ai realisé ce programme pour un laboratoire de c#, il m'a permi de toucher à l'orienté objets en c#.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- A Propos -->
+    <section id="section3" class="aboutme">
+        <div class="cont">
+            <div class="header">
+                <h2 class="shadow">A propos de moi</h2>
+            </div>
+            <div class="row haut">
+                <div class="in col-8">
+                    <h3 class="shadow">qui suis je?</h3>
+
+                    <p>Je m'appelle Mathieu, je suis né le 10 décembre 1995, j'ai donc 20 ans. Depuis toujours je m'intéresse aux nouvelles technologies, c'est pourquoi à la fin de mes humanités je me suis orienté dans une filiale informatique.</p>
+
+                    <p>Actuellement à la Haute Ecole en Hainaut au campus technique à Mons, anciennement appelée Isims. Je suis étudiant en bachelier en informatique et systèmes, finalité réseaux et télécommunications.</p>
+
+                    <p>Dans la vie comme dans le travail, je suis quelqu’un de dynamique, motivé et intéressé. J’aime les challenges et être confronté à de nouvelles choses. De nature très altruiste, j'apprécie le travail en équipe.</p>
+                    <p>Cela fait 13 ans que je suis dans les mouvements de jeunesses, et après avoir passé 9 ans en tant qu'animé dans l'unité de Jolimont, j'ai la chance de pouvoir y être animateur depuis maintenant 4 ans.</p>
+                </div>
+                <div class="moi col-4">
+                    <img src="img/apropos/moi.jpg" alt="moi" width="295">
+                </div>
+            </div>
+            <div class="row bas">
+                <div class="col-8">
+
+                    <h3 class="shadow entete">Cursus</h3>
+                    <div class="header-about">
+                        <h4>Ecole secondaire</h4>
+                        <h5>Athénée  Provinciale de La Louvière <span class="bull">&bull;</span> <span>2007 - 2013</span></h5>
+                    </div>
+                    <div class="header-about-content">
+                        <p>Avec orientation sciences fortes.</p>
+                        <ul class="list">
+                            <li>Sciences 6h</li>
+                            <li>Math 6h</li>
+                            <li>Anglais 4h</li>
+                            <li>Néerlandais 4h</li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="header-about">
+                        <h4>Enseignement supérieur</h4>
+                        <h5>Université de Mons <span class="bull">&bull;</span> <span>2013 - 2014</span></h5>
+                    </div>
+                    <div class="header-about-content">
+                        <p>J'ai suivi une année en bachelier en science de l'informatique durant laquelle j'ai pu développer ma réflexion et me procurer des connaissances en programmation ainsi qu'en mathématique avancée</p>
+                    </div>
+                    <div class="header-about">
+
+                        <h5>Haute Ecole en Hainaut campus technique de Mons<span class="bull">&bull;</span> <span>2014 - 2016</span></h5>
+                    </div>
+                    <div class="header-about-content">
+                        <p>Je suis actuellement en deuxième bac. J'envisage après la troisième année, de poursuivre vers un master en génie logiciel, à HEH campus technique de Mons</p>
+                    </div>
+                    <h3 class="shadow">divers</h3>
+                    <div class="header-about">
+                        <h4>Expériences professionnelles</h4>
+
+                    </div>
+                    <div class="header-about-content">
+                        <ul class="list">
+                            <li>Caissier à l'Intermarché de Morlanwelz - Job étudiant - Depuis Septembre 2015</li>
+                            <li>Hôte d'accueil et responsable stand photos a l'UrbanTrail de Mons edition 2014 et 2015</li>
+                            <li>Annimateur Louveteaux 2012 - 2016</li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="header-about">
+
+                        <h5>Titulaire du permis de conduire B depuis Décembre 2013</h5>
+                        <h5>Je suis en possession d'un véhicule</h5>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <h3>Mes compétences</h3>
+                    <div>
+                        <div class="progressbar"> <span class="matiere">Java<strong id="b1">80%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b1" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="progressbar"> <span class="matiere">C#<strong id="b2">80%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b2" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="progressbar"> <span class="matiere">Réseau<strong id = "b3">70%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b3" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="progressbar"> <span class="matiere">Arduino<strong id = "b4">80%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b4" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+
+                        <div class="progressbar"> <span class="matiere">C<strong id = "b5">90%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b5" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="progressbar"> <span class="matiere">HTML/CSS<strong id = "b6">60%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b6" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="progressbar"> <span class="matiere">JavaScript<strong id = "b7">60%</strong></span>
+                            <div class="progress">
+                                <div class="bar bg-color b7" style="width: 0%;"><span></span></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact -->
+    <section id="section4" class="contact">
+        <div class="container">
+            <div class="header">
+                <h2 class="shadow">Me contacter</h2>
+            </div>
+            <div class="row">
+                <div class="box-form">
+                    <h5>Si mon profil retient votre attention, voici un formulaire par lequel vous pourrez me contacter. Je me ferai un plaisir de vous répondre.</h5>
+                    <form class="form" id="contact-form" action="#">
+                        <p>
+                            <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                        </p>
+                        <p>
+                            <input type="text" class="form-control" name="email" placeholder="Email" required>
+                        </p>
+                        <p>
+                            <textarea name="message" placeholder="Message" rows="8" class="form-control"></textarea>
+                        </p>
+                        <button type="submit" class="btn">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <address>
+            <p><strong>Leclercq Mathieu, Rue Des Charbonnages, 55</strong><br>7100 La Louvière - Belgique<br>
+          <i class="fa fa-phone"></i> 064/227828 <i class="fa fa-mobile"></i>&nbsp; 0497/888168 <br>
+          <i class="fa fa-envelope"></i><a href="mailto:first.last@example.com"> Mathangui@gmail.com</a>
+        </address>
+        <ul class="social">
+            <li><a href="#" title="" data-original-title="facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" title="" data-original-title="twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" ></i></a></li>
+        </ul>
+        <div> <strong>Mon CV responsive</strong> &copy; 2016
+            <p>Leclercq Mathieu</p>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+body{
+    margin-top: 250px;
+}
+.navbar-default{
+    position: fixed!important;
+	top: 0px;
+	bottom: auto;
+}
